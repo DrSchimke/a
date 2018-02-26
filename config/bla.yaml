@@ -1,0 +1,5 @@
+parameters:
+
+services:
+    foo:
+      class: Sci\Bar\Bla
