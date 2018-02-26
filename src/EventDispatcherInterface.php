@@ -11,5 +11,5 @@ namespace Sci\Bar;
 
 interface EventDispatcherInterface
 {
-    public function dispatchEvent($event);
+    public function dispatch($event);
 }

@@ -10,7 +10,12 @@
 
 namespace Sci\Bar\Foo\Domain\readModel;
 
+use Sci\Bar\Foo\Domain\FooCreated;
+
 class FooProjection
 {
+    public function onFooCreated(FooCreated $event)
+    {
 
+    }
 }

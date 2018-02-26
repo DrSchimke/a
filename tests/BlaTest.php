@@ -10,7 +10,18 @@
 
 namespace Sci\Bar\Tests;
 
-class BlaTest
-{
+use PHPUnit\Framework\TestCase;
+use Sci\Bar\Bla;
 
+class BlaTest extends TestCase
+{
+    /**
+     * @test
+     */
+    public function it_should_bla()
+    {
+        $subject = new Bla();
+
+        self::assertInstanceOf(Bla::class, $subject);
+    }
 }
